@@ -519,9 +519,23 @@ margin-top: 20px;
 
 /* -----main  ---   MEDIA FUNKCJE */
 
+@media (max-width: 640px) {
+  .last-news {
+    flex-direction: column;
+    align-content: space-evenly;
+  }
+}
+  
+
+
 @media (min-width: 641px) and (max-width: 1199px){
   .main {
   width: 60%;
+  }
+
+  .last-news {
+    flex-direction: column;
+    align-content: space-evenly;
   }
 }
 
