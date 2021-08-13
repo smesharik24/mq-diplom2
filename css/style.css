@@ -452,7 +452,7 @@ margin-top: 20px;
 
   .last-news-preview {
     max-width: 380px;
-    margin: 0 10px 10px 10px;
+    margin-bottom: 10px;
   }
   
   .last-news-preview-content {
@@ -891,7 +891,7 @@ margin-top: 20px;
 
 .products-wrap {
   
-  max-width: 1200px;
+  width: 100%;
   margin: auto;
   padding: 0 15px;
   
@@ -901,7 +901,7 @@ margin-top: 20px;
   display: flex;
  justify-content: space-between;
  flex-wrap: wrap;
- flex-grow: 1;
+ 
 }
 
 .product {
@@ -932,7 +932,13 @@ margin-top: 20px;
   }
 }
 
+.product_imgbox {
+  max-width: 300px;
+}
 
+.product_img {
+  width: 100%;
+}
 
 .product__body {
   font-family: OpenSans-Bold, sans-serif;
