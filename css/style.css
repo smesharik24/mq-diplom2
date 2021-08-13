@@ -30,21 +30,19 @@
   background-size: cover;
   position: relative;
   padding: 30px 0;
-}
 
-.header-wrapper {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 15px;
-  z-index: 1;
-  position: relative;
-}
-
-.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 0;
+}
+
+.header-wrapper {
+  max-width: 100%;
+  margin: auto;
+  padding: 0 15px;
+  z-index: 1;
+  position: relative;
 }
 
 .header::after {
@@ -60,6 +58,7 @@
 }
 
 .container {
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -183,11 +182,13 @@
   }
 
   .header-welcome {
-    width: 85%;
+    width: 80%;
   }
 
   .panel {
     align-items:flex-start;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .panel-logo {
@@ -198,6 +199,10 @@
   width: 269px;
   height: 61px;
   margin-top: 120px;
+  }
+
+  .nav-button {
+    left: -15px;
   }
      
 }
