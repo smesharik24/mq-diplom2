@@ -523,10 +523,9 @@ margin-top: 20px;
   .last-news {
     flex-direction: column;
     align-content: space-evenly;
+    margin-right: auto;
   }
 }
-  
-
 
 @media (min-width: 641px) and (max-width: 1199px){
   /*.main {
