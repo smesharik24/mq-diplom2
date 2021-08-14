@@ -436,7 +436,7 @@ margin-top: 20px;
   
   .last-news-content {
     display: flex;
-    margin: auto;
+    margin: 0 auto;
     justify-content: center;
   }
 
@@ -529,9 +529,9 @@ margin-top: 20px;
 
 
 @media (min-width: 641px) and (max-width: 1199px){
-  .main {
+  /*.main {
   width: 60%;
-  }
+  }*/
 
   .last-news {
     flex-direction: column;
