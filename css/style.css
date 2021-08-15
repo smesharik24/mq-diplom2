@@ -293,36 +293,68 @@ margin-top: 20px;
     line-height: 1.2;
     text-align: left;
    
-    color: #ffffff;
-
-    background-color: #000000;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    position: relative;
-    
-    display: flex;
-    
-    align-items: center;
-    z-index: 0;
     margin-bottom: 5px;
   }
 
 
   .trend-background-one {
     background-image: url(../images/trend1.jpg);
+
+    color: #ffffff;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 0;
+    margin-bottom: 5px;
   }
 
   .trend-background-two {
     background-image: url(../images/trend2.jpg);
+
+    color: #ffffff;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 0;
+    margin-bottom: 5px;
   }
     
   .trend-background-three {
     background-image: url(../images/trend3.jpg);
+
+    color: #ffffff;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 0;
+    margin-bottom: 5px;
    }
   
   .trend-background-four {
     background-image: url(../images/trend4.jpg);
+
+    color: #ffffff;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 0;
+    margin-bottom: 5px;
   }
     
 
@@ -339,7 +371,10 @@ margin-top: 20px;
 
   .trend-wraper {
     width: 100%;
+    margin: auto 0 0;
+    padding: 0;
     z-index: 1;
+    position: relative;
   }
 
   .trend-meta {
@@ -406,30 +441,50 @@ margin-top: 20px;
 /* ------------TRENDS MEDIA FINKCJE   ----------- */
 
 
-  @media (max-width: 640px) and (orientation: portrait) {
+  @media (max-width: 640px) {
     .trend-card {
       width: 100%;
+      
+    }
+    .trend-title-link {
       font-size: 16px;
+    }
+
+    .trend-wraper {
+      height: 230px;
     }
   }
 
   @media (max-width: 640px) and (orientation: landscape) {
     .trend-card {
       width: 49.75%;
+      
+    }
+    .trend-title-link {
       font-size: 16px;
     }
   }
 
-  @media (min-width: 641px) and (max-width: 1199px) and (orientation: portrait) {
+  @media (min-width: 641px) and (max-width: 1199px) {
     .trend-card {
       width: 49.75%;
+      
+    }
+    .trend-title-link {
       font-size: 17px;
+    }
+
+    .trend-wraper {
+      height: 250px;
     }
   }
 
   @media (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) {
     .trend-card {
       width:24.75%;
+      
+    }
+    .trend-title-link {
       font-size: 17px;
     }
   }
@@ -438,7 +493,9 @@ margin-top: 20px;
   @media (min-width: 1200px){
     .trend-card {
       width: 24.75%;
-      font-size: 20px;
+    }
+    .trend-wraper {
+      height: 320px;
     }
   }
 
@@ -648,6 +705,11 @@ margin-top: 20px;
  .last-posts-bar {
     margin-left: auto;
     margin-right: auto;
+ }
+
+ .last-post-bar {
+  line-height: 1.2;
+  text-align: left;
  }
 
  .last-news-bar {
