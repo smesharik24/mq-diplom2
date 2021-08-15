@@ -340,7 +340,6 @@ margin-top: 20px;
   .trend-wraper {
     width: 100%;
     z-index: 1;
-    position: relative;
   }
 
   .trend-meta {
@@ -371,7 +370,8 @@ margin-top: 20px;
     flex-direction: column;
     margin: 15px 20px;
     padding: 35px;
-    border: #b59f5b 3px solid;
+    border: 3px solid;
+    border-color: rgba(181, 159,91, 0.6);
     /*
   box-sizing: content-box;
   
