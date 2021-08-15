@@ -284,6 +284,7 @@ margin-top: 20px;
   .trend-box {
     flex-wrap: wrap;
     display: flex;
+    justify-content: space-between;
   }
 
    
@@ -301,7 +302,7 @@ margin-top: 20px;
     position: relative;
     
     display: flex;
-    justify-content: space-between;
+    
     align-items: center;
     z-index: 0;
     margin-bottom: 5px;
@@ -368,7 +369,7 @@ margin-top: 20px;
   .trend-content {
     display: flex;
     flex-direction: column;
-    margin: auto 20px 15px;
+    margin: 15px 20px;
     padding: 35px;
     border: #b59f5b 3px solid;
     /*
@@ -414,25 +415,18 @@ margin-top: 20px;
 
   @media (min-width: 641px) and (max-width: 1199px){
     .trend-card {
-      width: 49.5%;
+      width: 49.6124%;
       font-size: 17px;
-    }
-
-    .trend-card:nth-child(2n+2){
-      margin-left: 5px;
     }
   }
 
   @media (min-width: 1200px){
     .trend-card {
-      width: 24.5%;
+      width: 24.6888%;
       font-size: 20px;
     }
 
-    .trend-card:nth-child(n+2){
-      margin-left: 5px;
-    }
-  }
+   }
 
 
 /*-------trends-end-----*/
