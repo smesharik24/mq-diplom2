@@ -452,6 +452,11 @@ margin-top: 20px;
     .trend-title-link {
       font-size: 16px;
     }
+
+    .trend-content {
+      margin: 15px;
+      padding: 23px;
+    }
   }
 
   @media (max-width: 640px) and (orientation: landscape) {
