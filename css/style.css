@@ -415,14 +415,14 @@ margin-top: 20px;
 
   @media (min-width: 641px) and (max-width: 1199px){
     .trend-card {
-      width: 49.6124%;
+      width: 49.75%;
       font-size: 17px;
     }
   }
 
   @media (min-width: 1200px){
     .trend-card {
-      width: 24.6888%;
+      width: 24.75%;
       font-size: 20px;
     }
 
