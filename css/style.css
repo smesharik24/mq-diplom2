@@ -406,29 +406,43 @@ margin-top: 20px;
 /* ------------TRENDS MEDIA FINKCJE   ----------- */
 
 
-  @media (max-width: 640px){
+  @media (max-width: 640px) and (orientation: portrait) {
     .trend-card {
       width: 100%;
       font-size: 16px;
     }
   }
 
-  @media (min-width: 641px) and (max-width: 1199px){
+  @media (max-width: 640px) and (orientation: landscape) {
+    .trend-card {
+      width: 49.75%;
+      font-size: 16px;
+    }
+  }
+
+  @media (min-width: 641px) and (max-width: 1199px) and (orientation: portrait) {
     .trend-card {
       width: 49.75%;
       font-size: 17px;
     }
   }
 
+  @media (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) {
+    .trend-card {
+      width:24.75%;
+      font-size: 17px;
+    }
+  }
+
+
   @media (min-width: 1200px){
     .trend-card {
       width: 24.75%;
       font-size: 20px;
     }
+  }
 
-   }
-
-
+  
 /*-------trends-end-----*/
 
 
