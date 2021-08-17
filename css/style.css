@@ -1287,6 +1287,10 @@ margin-top: 20px;
 
 
 @media (max-width: 640px){
+
+    .products {
+     margin-top: 45px;
+    }
     .product {
       width: 100%
     }
@@ -1426,6 +1430,13 @@ margin-top: 20px;
     display: block;
   }
   
+
+  /* ----MEDIA FOOTER ---- */
+  @media (max-width: 640px) {
+    .footer {
+      margin-top: 70px;
+    }
+  }
 
 /*-------footer-end-----*/
 
