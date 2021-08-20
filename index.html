@@ -82,6 +82,7 @@
                   <li class="trend-tag preview-tag">
                     <a href="#0" class="trend-tag-link preview-tag-link">Interior</a>
                   </li>
+
                 </ul>
 
                 <div class="trend-header">
@@ -308,6 +309,7 @@
                 <li class="preview-tag">
                   <a href="#0" class="preview-tag-link">Art</a>
                 </li>
+
               </ul>
               <h2 class="preview-title"> <a href="#0" class="preview-title-link">
                   Делаем модные принты на подушках для интерьера
@@ -640,44 +642,68 @@
       </footer>
 
 <!-- фидбек POPUP -->
- <div class="popup">
-    <div class="popup__container">
-      <div class="sign-up">
-        <header class="sign-up__header">
-          <h3 class="sign-up__title">Ваш фидбек</h3>
-          <span class="sign-up__hint">It's free and takes less than 30 seconds</span>
-        </header>
-        <div class="sign-up__content">
-          <form class="sign-up__form">
-            <div class="sign-up__row">
-              <div class="sign-up__column">
-                <label class="sign-up__label" for="username">Enter your username</label>
-                <input id="username" class="sign-up__field sign-up__field_username" placeholder="e.g melnik909" name="username" required>
-              </div>
-              <div class="sign-up__column">
-                <label class="sign-up__label" for="email">Enter your email</label>
-                <input id="email" class="sign-up__field sign-up__field_email" type="email" placeholder="e.g melnik909@gmail.ru" name="email" required>
-              </div>
-            </div>
-            <div class="sign-up__row">
-              <div class="sign-up__column">
-                <label class="sign-up__label" for="password">Enter your password</label>
-                <input id="password" class="sign-up__field sign-up__field_password" type="password" placeholder="e.g fo3!bU3" name="password" required>
-              </div>
-              <div class="sign-up__column">
-                <label class="sign-up__label" for="repeat-password">Confirm your password</label>
-                <input id="repeat-password" class="sign-up__field sign-up__field_password" type="password" placeholder="e.g fo3!bU3" name="confirm-password" required>
-              </div>
-            </div>
-            <div class="sign-up__row">
-              <button class="sign-up__button"><span class="sign-up__button-label">Create account</span></button>
-            </div>
-          </form>
+<div class="block-hidden">
+
+  <div class="wrapper">
+
+    <div class="popup">
+
+      <h2 class="popup-header last-news-title-bar ">Ваш фидбек</h2>
+
+      <form class="form">
+        <!--<div class="form-row">
+		<label class="form-group">
+			<span class="form-hint">Введите ваше имя</span>
+			<input type="text" class="field" placeholder="Например, Иван" required>
+		</label>
+	</div>
+	<div class="form-row">
+		<label class="form-group">
+			<span class="form-hint">Введите ваш email</span>
+			<input type="email" class="field" placeholder="Например, ivan@gmail.com" required>
+		</label>
+	</div>	-->
+        <div class="form-row">
+          <label class="form-group">
+            <span class="form-hint">Как часто Вы заходите на сайт?</span>
+            <select class="select">
+              <option>Один раз в неделю</option>
+              <option selected>Почти каждый день</option>
+              <option>Один раз в месяц</option>
+            </select>
+          </label>
         </div>
-      </div>
-      <button class="popup__close" type="button">Закрыть окно</button>
+
+        <div class="form-row">
+          <div class="form-group">
+            <span class="form-hint">Вы подписаны на e-mail рассылку?</span>
+            <label class="radio-group">
+              <input type="radio" class="radio" name="radio-group" required>
+              <span class="radio-group-text">Да</span>
+            </label>
+            <label class="radio-group">
+              <input type="radio" class="radio" name="radio-group" required>
+              <span class="radio-group-text">Нет</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="form-row"><label class="form-group">
+            <span class="form-hint">Расскажите, какой контент Вы хотели бы видеть на нашем сайте?</span>
+          </label>
+          <textarea placeholder="Может, больше рецептов?..." rows="7"></textarea>
+        </div>
+        <div class="form-row">
+          <button class="button">Отправить</button>
+        </div>
+
+      </form>
+
     </div>
+
   </div>
+
+</div>
 
 
 <!--  -->
