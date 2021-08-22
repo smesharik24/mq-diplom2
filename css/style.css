@@ -941,7 +941,7 @@ margin-top: 20px;
     font-family: OpenSans-Bold, sans-serif;
     text-transform: uppercase;
     color: #ffffff;
-    font-size: 13px;
+    font-size: 14px;
   }
   
   .subscription-text {
@@ -1482,7 +1482,7 @@ margin-top: 20px;
 visibility: hidden;
 }*/
 
-.wrapper-close {
+.wrapper-close{
   position: relative;
   width: 400px;
   height: 600px;
