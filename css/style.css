@@ -1628,7 +1628,7 @@ visibility: hidden;
 }
 
 .select {
-  background-image: url("//svg/form-arrows.svg");
+  background-image: url(../svg/form-arrows.svg);
   background-repeat: no-repeat;
   background-position: right 5px center;
 }
@@ -1639,7 +1639,7 @@ visibility: hidden;
   width: 25px;
   height: 25px;
 
-  background-image: url("//svg/form-empty-circle.svg");
+  background-image: url(../svg/form-empty-circle.svg);
   
 }
 
@@ -1660,7 +1660,7 @@ visibility: hidden;
 .radio-group-text::before {
   content: "";
  
-  background-image: url("//svg/form-circle.svg");
+  background-image: url(../svg/form-circle.svg);
   width: 14px;
   height: 14px;
   border-radius: 6px;
