@@ -1544,8 +1544,8 @@ visibility: hidden;
 
 .popup {
   /*width: calc(100% - 60px);
-  height: calc(100% - 100px);*/
-  position: absolute;
+  height: calc(100% - 100px);
+  position: absolute;*/
   background-color: #ffffff;
 }
 
