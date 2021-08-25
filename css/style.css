@@ -1473,7 +1473,7 @@ margin-top: 20px;
   position: absolute;
   top: 0;
   left: 0;
-  display: none;
+  display: block;
   opacity: 0.6;
 }
 
