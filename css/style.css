@@ -1491,9 +1491,9 @@ visibility: hidden;
   height: 640px;
   margin: auto;
   padding: 52px 30px;
-  border: 2px solid #b59f5b;
-  box-sizing: border-box;
   
+  box-sizing: border-box;
+  background-color: #ffffff;
   
 }
 
@@ -1546,7 +1546,7 @@ visibility: hidden;
   /*width: calc(100% - 60px);
   height: calc(100% - 100px);*/
   position: absolute;
-  background-color: #aadfdf;
+  background-color: #ffffff;
 }
 
 .popup-header {
@@ -1612,7 +1612,7 @@ visibility: hidden;
   height: 45px;
   padding-left: 20px;
   margin: 0;
-  border: 1px solid #cbd1d4;
+  /*border: 1px solid #cbd1d4;*/
   background-color: #f4f7f6;
 
   font-family: Opensans-Regular, sans-serif;
