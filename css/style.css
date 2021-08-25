@@ -1631,6 +1631,7 @@ visibility: hidden;
   background-image: url(../svg/form-arrows.svg);
   background-repeat: no-repeat;
   background-position: right 5px center;
+  background-size: 11px;
 }
 
 .radio-group-text::before {
