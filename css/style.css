@@ -1519,7 +1519,7 @@ visibility: hidden;
   border-radius: 16px;
   background-color: #ffffff;
 
-  background-image: url(//svg/form-x.svg);
+  background-image: url(../svg/form-x.svg);
   background-repeat: no-repeat;
   background-position: right 5px center;
 }
