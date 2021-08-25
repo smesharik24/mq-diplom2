@@ -1487,8 +1487,8 @@ visibility: hidden;
   bottom: 0;
   right: 0;
   left: 0;
-  width: 400px;
-  height: 640px;
+  width: 400px; /*391px*/
+  height: 640px; /*585px*/
   margin: auto;
   padding: 52px 30px;
   
@@ -1519,7 +1519,7 @@ visibility: hidden;
   border-radius: 16px;
   background-color: #ffffff;
 
-  background-image: url(https://netology-code.github.io/resourses/pics/select__min_.svg);
+  background-image: url(//svg/form-x.svg);
   background-repeat: no-repeat;
   background-position: right 5px center;
 }
@@ -1556,6 +1556,7 @@ visibility: hidden;
   font-size: 20px;
   line-height: 1.4;
   margin-top: 0;
+  color: #0f0d0e;
 }
 
 .popup-header::after {
@@ -1627,31 +1628,19 @@ visibility: hidden;
 }
 
 .select {
-  background-image: url("https://netology-code.github.io/resourses/pics/select__min_.svg");
+  background-image: url("//svg/form-arrows.svg");
   background-repeat: no-repeat;
   background-position: right 5px center;
 }
 
 .radio-group-text::before {
-  content: "";
-  display: inline-block;
+  
 
- /* width: 25px;
+  width: 25px;
   height: 25px;
 
-  background-image: url("https://netology-code.github.io/resourses/pics/radio-no-active.svg");*/
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 25px;
-}
-
-.radio-group-text::before {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.radio-group-text::before {
-  margin-right: 5px;
+  background-image: url("//svg/form-empty-circle.svg");
+  
 }
 
 .radio-group {
@@ -1668,12 +1657,22 @@ visibility: hidden;
 .radio-group:nth-of-type(n + 2) {
   margin-left: 15px;
 }
-.radio:checked ~ .radio-group-text::before {
-  /* background-image: url("https://netology-code.github.io/resourses/pics/radio-active.svg");*/
-  width: 11px;
-  height: 11px;
+.radio-group-text::before {
+  content: "";
+ 
+  background-image: url("//svg/form-circle.svg");
+  width: 14px;
+  height: 14px;
   border-radius: 6px;
   background-color: #b59f5b;
+
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 25px;
 }
 
 .radio {
@@ -1723,4 +1722,37 @@ textarea:focus,
 }
 
 
+/*   --- POPUP  MEDIA FUNKCJE   --    */
+
+@media (max-width: 640px){
+  .wrapper-close {
+    height: 546px;
+    width: 330px;
+  }
+
+
+  .form-row:nth-child(n + 2) {
+    margin-top: 22px;
+  }
+
+
+ .popup-header {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1199px) {
+  .wrapper-close {
+    height: 596px;
+    width: 390px;
+  }
+
+  .form-row:nth-child(n + 2) {
+    margin-top: 25px;
+  }
+
+  .popup-header {
+    font-size: 18px;
+  }
+}
 /*-----POPUP-end------*/
