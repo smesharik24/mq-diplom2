@@ -1370,6 +1370,12 @@
 
 /*-----POPUP-begin--------*/
 
+
+
+.block-hidden {
+visibility: hidden;
+}
+
 .body-grey {
   background-color: #666666;
   width: 100%;
@@ -1379,10 +1385,6 @@
   left: 0;
   display: block;
   opacity: 0.6;
-}
-
-.block-hidden {
-visibility: hidden;
 }
 
 .wrapper-close {
@@ -1423,6 +1425,7 @@ visibility: hidden;
   position: relative;
   box-sizing: border-box;
   background: white;
+  
 }
 
 .popup {
