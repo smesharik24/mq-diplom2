@@ -1498,38 +1498,23 @@ visibility: hidden;
 }
 
 .button-close {
-  position: absolute;
-  top: 0px;
-  right: 30px;
-  width: 24px;
-  height: 24px;
-  opacity: 0.2;
-  cursor: pointer;
- /* transition: opacity ease 0.5s;*/
-}
-
-.button-close:hover {
-  opacity: 1;
-}
-
-
-.button-close::after {
+  background: url(../svg/form-x.svg);
+  background-repeat: no-repeat;
   width: 18px;
   height: 18px;
   border-radius: 16px;
-  background-color: #ffffff;
-
-  background-image: url(../svg/form-x.svg);
-  background-repeat: no-repeat;
-  background-position: right 5px center;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  position: absolute;
+  left: calc(100% - 18px);
+  bottom: calc(100% + 10px);
 }
 
-.button-close::before {
-  width: 18px;
-  height: 18px;
-  border-radius: 2px;
-  background-color: #ffffff;
+.button-close:hover {
+  opacity: 0.6;
 }
+
 
 .wrapper {
   position: relative;
@@ -1635,6 +1620,7 @@ visibility: hidden;
   background-repeat: no-repeat;
   background-position: right 5px center;
   background-size: 11px;
+  
 }
 
 .radio {
@@ -1728,14 +1714,18 @@ textarea:focus,
 @media (max-width: 640px){
   .wrapper-close {
     height: 546px;
-    width: 330px;
+    max-width: 330px;
   }
 
+  .button-close {
+    width: 27px;
+    height: 27px;
+    left: calc(100% - 27px);
+  }
 
   .form-row:nth-child(n + 2) {
-    margin-top: 22px;
+    margin-top: 18px;
   }
-
 
  .popup-header {
     font-size: 16px;
@@ -1746,6 +1736,12 @@ textarea:focus,
   .wrapper-close {
     height: 596px;
     width: 390px;
+  }
+
+  .button-close {
+    width: 27px;
+    height: 27px;
+    left: calc(100% - 27px);
   }
 
   .form-row:nth-child(n + 2) {
