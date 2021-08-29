@@ -1381,9 +1381,9 @@
   opacity: 0.6;
 }
 
-/*.block-hidden {
+.block-hidden {
 visibility: hidden;
-}*/
+}
 
 .wrapper-close {
   position: absolute;
