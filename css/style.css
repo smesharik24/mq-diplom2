@@ -1419,7 +1419,6 @@ visibility: hidden;
   opacity: 0.6;
 }
 
-
 .wrapper {
   position: relative;
   box-sizing: border-box;
@@ -1427,7 +1426,6 @@ visibility: hidden;
 }
 
 .popup {
-  
   background-color: #ffffff;
 }
 
@@ -1466,7 +1464,6 @@ visibility: hidden;
 .form-hint {
   display: block;
   font-size: 13px;
-  /*line-height: 3;*/
   margin-bottom: 10px;
   font-family: Opensans-Regular, sans-serif;
 }
